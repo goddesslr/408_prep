@@ -1,4 +1,59 @@
-*.csv
-*.xlsx
-__pycache__/
+# Standard .gitignore template for C++, Python, VS Code on macOS & Windows
+
+# ============================
+# 1. OS specific files
+# ============================
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+*.log
+
+# ============================
+# 2. Local Editor/IDE Settings (隔离跨端配置)
+# ============================
+.vscode/
+.idea/
+settings.json
+*.swp
+
+# ============================
+# 3. C/C++ 编译产物 (物理拦截机器码)
+# ============================
+# 忽略所有可执行和目标文件后缀
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.app
+[Dd]ebug/
+[Rr]elease/
+bin/
+
+# 【精准狙击：从你的截图来看，当前已存在的无后缀 Linux 编译产物】
+C/day1
+C/day1_2
+C/day2
+C/day3
+C/day4
+C/day5
+C/day6
+C/hello
+C/lp
+C/main
+C/run_me
+C/test
+C/tranf
+
+# ============================
+# 4. Python 环境与缓存
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.ipynb_checkpoints
